@@ -12,7 +12,6 @@ const options = {
 
 
 request(options, (error, res, body) => {
-    //console.log(body.main.temp);
     console.log(`A temperatura atual em ${argument} é de ${body.main.temp} °C`)
 
 });
